@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Transcript_ToolsApp: App {
+    @State private var controller = AppController()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(controller: controller)
+        }
+
+        Settings {
+            SettingsView(controller: controller)
         }
     }
 }

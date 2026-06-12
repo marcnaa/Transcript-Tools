@@ -1,0 +1,52 @@
+{
+  "fill" : {
+    "solid" : "display-p3:0.93479,1.00000,0.99926,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:1.05120,0.45471,0.43228,0.86000",
+              "display-p3:0.96783,0.03149,0.00000,0.82000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0,
+                "y" : 0.5
+              },
+              "stop" : {
+                "x" : 1.6061096354166668,
+                "y" : 0.5
+              }
+            }
+          },
+          "image-name" : "waveform.svg",
+          "name" : "waveform",
+          "position" : {
+            "scale" : 40,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
